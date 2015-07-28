@@ -11,6 +11,6 @@ function($scope){
     {title: 'post 5', upvotes: 4}
   ];
   $scope.addPost = function(){
-    $scope.posts.push({title: 'A new post!', upvotes: 2})
+    $scope.posts.push({title: $scope.title, upvotes: 4})
   };
 }]);
